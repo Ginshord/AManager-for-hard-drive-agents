@@ -1,7 +1,7 @@
 # AManager-for-hard-drive-agents
 Socket programming--a manager written in Java, manages the agents implemented in c that are responsible for telling manager abt corresponding hard drives' info like whether hard drives are broken, their info, and etc.
 
-If format is mess, PLZ zoom out the text reader.
+
 ####  READ ME  #### 
 There are two files - one named UDPServer.java(Manager), the other named client.c(Agent)
 The test running environment is under the MacOS terminal.
