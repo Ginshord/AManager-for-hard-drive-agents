@@ -6,7 +6,7 @@ abt corresponding hard drives' info like whether hard drives are broken, their i
 ####  READ ME  #### 
 There are two files - one named UDPServer.java(Manager), the other named client.c(Agent)
 The test running environment is under the MacOS terminal.
-Before run it, plz compile them. gcc -o client client.c  & javac UDPServer.java for your convenience.
+Before run it, plz compile them. gcc -o client client.c -lpthread & javac UDPServer.java for your convenience.
 When run client.c in mac terminal, it needs input like ./client 127.0.0.1 7777
                                                         ./client <IP> <Port>
 When run UDPServer.java in mac terminal, it only needs input like java UDPServer 7777
